@@ -1,0 +1,14 @@
+.App {
+	width: 70%;
+	/* min-height: 100vh; */
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+@media(max-width: 850px) {
+	.App {
+		width: 90%;
+	}
+}
